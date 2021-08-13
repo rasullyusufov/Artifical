@@ -1,0 +1,85 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+
+body{
+    margin: 0;
+ font-family: 'Lato', sans-serif ;
+ height: 100vh;
+}
+
+#header{
+  
+    background: #08142b;
+}
+
+#section1{
+    
+    background-color: #060e1d;
+}
+
+#img1 , #img2 , #img3{
+  width: 100%;
+}
+
+#robot{
+    max-height: 45px;
+    max-width: 45px;
+}
+
+a:hover {
+font-size: 19px;
+}
+p , li {
+    color:#dadada;
+}
+
+span{
+    color: green;
+}
+#section3 {
+    background-color: #060e1d;
+}
+footer{
+    background-color: #060e1d;
+}
+
+li {
+    list-style: none;
+}
+
+footer i{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.fa-telegram-plane{
+   color:  rgb(106, 163, 228);
+}
+.fa-instagram{
+    padding: 1px 3px;
+    border-radius: 3px;
+    background-color: #d1c11b;
+    background-image: linear-gradient(21deg, #d1c11b 0%, #bf153d 50%, #100ed4 100%);
+    ;
+    color: rgb(197, 197, 197);
+}
+
+.fa-youtube{
+    color: red;
+}
+footer i{
+    cursor: pointer;
+}
+
+
+@media (max-width: 990px) {
+        #navbarSupportedContent{
+            text-align: center;
+        }
+       .btn{
+            margin: auto;
+        }
+}
